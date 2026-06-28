@@ -7,7 +7,7 @@ class M4b < Formula
 
   depends_on "python@3.12"
   depends_on "ffmpeg"
-  depends_on "podman"
+  depends_on "docker"
 
   def install
     bin.install "m4b"
